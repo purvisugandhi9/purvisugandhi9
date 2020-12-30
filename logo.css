@@ -1,0 +1,181 @@
+.nav{
+    background-color: black;
+	color: yellow;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.logo{
+    color: white;
+	text-transform: uppercase;
+	flex-grow: 1;
+	padding: 2% 4%;
+    font-size: 6em;
+	background-color: black;
+}
+.menu{
+	flex-grow: 6;
+	align-self: center;
+}
+.menu ul{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: none;
+	padding-left: 0;
+}
+.menu ul li a{
+	flex-grow: 1;
+	color: white;
+	text-decoration: none;
+    font-size: 2em;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+.banner{
+	display:flex; 
+	width: 100%;
+	height: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+#head{
+	color:#911b17;
+	align-self: center;
+	text-transform: capitalize;
+	font-size: 2em;
+	padding-bottom: 0;
+	padding-top: 90px;
+}
+#para{
+	color:#960f0b;
+	align-self: center;
+	padding-bottom: 90px;
+	font-size:1.5em;
+}
+.mac{
+		display: flex;
+        flex-direction: row;		
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+}
+.one{
+	margin: 2%;
+	padding: 1%;
+	align-self:center; 
+}
+.one h1{
+	text-transform: capitalize;
+	font-size: 2em;
+	align-content: center;
+	text-align: center;
+}
+.one p{
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.2em;
+}
+.two{
+	margin: 2%;
+	padding: 1%;
+	align-self:center; 
+}
+.two h1{
+	text-transform: capitalize;
+	font-size: 2em;
+	align-content: center;
+	text-align: center;
+}
+.two p{
+  font-weight: 400;
+  text-align: center;
+    font-size: 1.2em;
+}
+.three{
+	margin: 2%;
+	padding: 1%;
+	align-self:center; 
+}
+.three h1{
+	text-transform: capitalize;
+	font-size: 1.8em;
+	align-content: center;
+	text-align: center;
+}
+.three p{
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.2em;
+}
+.contact{
+	margin:  0 10%;
+	margin-bottom: 5%;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-content: center;
+}
+.contact:hover{
+	border:solid black 2px;
+	transition: border 300ms ease;
+}
+.contact input[type="text"]	{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+.contact input[type="text"]:hover{
+	transform: scale(1.03);
+		transition: all 300ms linear;
+}
+.contact h1{
+	color: rgb(0, 0, 0);
+	text-transform:capitalize; 
+	text-align: center;
+	font-size: 2.3em;
+}
+.contact input[type="mobile"]	{
+    margin: 5px;
+    padding: 5px;
+    border:solid black 2px;
+    border-radius:5px;
+    font-size: 1.5em;
+}
+.contact input[type="mobile"]:hover{
+		transform: scale(1.03);
+		transition: all 300ms linear;
+}
+.contact textarea	{
+    margin: 5px;
+    padding: 5px;
+	border:solid black 2px;
+    border-radius:5px;	
+    width: 290px;
+    height: 150px;
+    margin: 5px;
+    font-size: 1.5em;
+}
+.contact textarea:hover{
+	transform: scale(1.03);
+		transition: all 300ms linear;
+}
+.contact button{
+  align-self: center;
+  text-decoration: none;
+  background-color: rgb(60,163,207);
+  border-color: black;
+  font-size: 1.5em;
+  margin:5px;
+  padding: 5px;
+}
+ button:hover{
+  background-color:rgb(90,222,242);
+  transform: scale(1.1);
+  transition: all 1s linear;
+  text-decoration: underline;
+}
